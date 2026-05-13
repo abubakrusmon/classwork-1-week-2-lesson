@@ -25,4 +25,16 @@
   display: flex;
   align-items: center;
   gap: 20px;
+}
+
+.section1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.section1 div {
+  display: flex;
+  gap: 40px;
+  font-size: 20px;
 }/*# sourceMappingURL=style.css.map */
