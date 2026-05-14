@@ -3,10 +3,28 @@
     font-family: sans-serif;
 }
 
+@mixin input {
+    width: 200px;
+    height: 45px;
+    border: none;
+    border-radius: 30px;
+    padding-left: 15px;
+}
+
 @mixin obshiy {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+}
+
+@mixin buttons {
+    width: 220px;
+    height: 50px;
+    border: none;
+    border-radius: 30px;
+    background: #33c36b;
+    color: white;
+    margin-bottom: 20px;
 }
 
 @mixin obshiy2 {
@@ -276,16 +294,85 @@
         bottom: 0px;
     }
 }
-.section6{
-        h1 {
+
+.section6 {
+    h1 {
         font-size: 40px;
         margin-left: 150px;
         margin-top: 100px;
     }
-    .obshiyss6{
-    @include obshiy2();
-    margin-top: 50px;
-    gap: 50px;
+
+    .obshiyss6 {
+        @include obshiy2();
+        margin-top: 50px;
+        gap: 50px;
+    }
+}
+
+.section7 {
+    width: 80%;
+    background: #1f1f1f;
+    border-radius: 40px;
+    padding: 40px;
+    margin: auto;
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+
+    .leftss7 {
+        width: 500px;
+    }
+
+    .zgss7 {
+        color: white;
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+
+    .pagss7 {
+        color: white;
+        margin-bottom: 30px;
+    }
+
+    .boxss7 {
+        display: flex;
+        gap: 20px;
+        margin-bottom: 30px;
+
+        .textss7 {
+            color: white;
+            margin-bottom: 10px;
+        }
+
+        .inputss7 {
+            @include input()
+        }
+    }
+
+    .btnss7 {
+        @include buttons();
+    }
+
+    .pag2ss7 {
+        color: gray;
+        font-size: 14px;
+    }
+
+    .rightss7 img {
+        width: 800px;
+        position: absolute;
+        right: 0;
+        top: -85px;
+    }
+
+    .rightss7 {
+        width: 50%;
+    }
+
+    .imgss7 {
+        width: 100%;
     }
 }
 
@@ -390,20 +477,65 @@
         }
 
     }
-    .section6{
-    h1{
-    margin-left: 20px;
+
+    .section6 {
+        h1 {
+            margin-left: 20px;
+        }
+
+        .obshiyss6 div img {
+            width: 170px;
+            flex-wrap: wrap;
+        }
+
+        .obshiyss6 {
+            width: 100%;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
     }
 
-    .obshiyss6 div img{
-    width: 170px;
-    flex-wrap: wrap;
-    }
-    .obshiyss6 {
-    width: 100%;
-    flex-wrap: wrap;
-    gap: 20px;
-    }
+    .section7 {
+        width: 80%;
+        flex-direction: column;
+        padding: 30px 20px;
+        margin-top: 90px;
+
+        .leftss7 {
+            width: 100%;
+
+            .zgss7 {
+                font-size: 25px;
+                margin-bottom: 20px;
+            }
+
+            .pagss7 {
+                font-size: 14px;
+            }
+
+            .boxss7 {
+                flex-direction: column-reverse;
+                gap: 20px;
+            }
+
+            .inputss7 {
+                width: 90%;
+            }
+
+            .btnss7 {
+                width: 100%;
+            }
+
+            .pag2ss7 {
+                font-size: 12px;
+            }
+
+        }
+
+        .rightss7 {
+            display: none;
+        }
+
     }
 
 }
