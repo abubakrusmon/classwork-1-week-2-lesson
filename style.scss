@@ -276,6 +276,18 @@
         bottom: 0px;
     }
 }
+.section6{
+        h1 {
+        font-size: 40px;
+        margin-left: 150px;
+        margin-top: 100px;
+    }
+    .obshiyss6{
+    @include obshiy2();
+    margin-top: 50px;
+    gap: 50px;
+    }
+}
 
 
 @media (max-width : 510px) {
@@ -377,6 +389,21 @@
             display: none;
         }
 
+    }
+    .section6{
+    h1{
+    margin-left: 20px;
+    }
+
+    .obshiyss6 div img{
+    width: 170px;
+    flex-wrap: wrap;
+    }
+    .obshiyss6 {
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 20px;
+    }
     }
 
 }
