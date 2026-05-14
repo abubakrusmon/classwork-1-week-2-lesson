@@ -199,6 +199,42 @@
   padding-left: 30px;
 }
 
+.section5 {
+  height: 550px;
+  margin-top: 170px;
+  background: #1f1f1f;
+  padding: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+.section5 .leftss5 {
+  width: 700px;
+}
+.section5 .leftss5 .zgss5 {
+  color: white;
+  margin-bottom: 40px;
+  font-size: 35px;
+}
+.section5 .leftss5 .boxss5 {
+  display: flex;
+  gap: 40px;
+}
+.section5 .leftss5 .pagss5 {
+  color: white;
+  margin-bottom: 20px;
+}
+.section5 .leftss5 .rightss5 {
+  width: 350px;
+}
+.section5 .rightss5 .imgss5 {
+  width: 600px;
+  position: absolute;
+  right: 0;
+  bottom: 0px;
+}
+
 @media (max-width: 510px) {
   .header {
     display: none;
@@ -245,5 +281,33 @@
   .section4 .obshiyss4 {
     flex-direction: column;
     width: 100%;
+  }
+  .section5 {
+    flex-direction: column;
+    padding: 20px;
+    height: 950px;
+    margin-top: 50px;
+  }
+  .section5 .leftss5 {
+    width: 100%;
+  }
+  .section5 .cardss5 {
+    margin-top: -40px;
+  }
+  .section5 .zgss5 {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  .section5 .boxss5 {
+    flex-direction: column;
+    gap: 0px;
+    padding-top: 50px;
+  }
+  .section5 .pagss5 {
+    font-size: 17px;
+    margin-bottom: 15px;
+  }
+  .section5 .rightss5 {
+    display: none;
   }
 }/*# sourceMappingURL=style.css.map */
