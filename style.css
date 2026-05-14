@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  font-family: sans-serif;
+}
+
 .header {
   display: flex;
   justify-content: space-evenly;
@@ -32,9 +37,129 @@
   justify-content: center;
   align-items: center;
   gap: 30px;
+  margin-top: 30px;
 }
 .section1 div {
   display: flex;
   gap: 40px;
   font-size: 20px;
+}
+
+.section2 h1 {
+  font-size: 40px;
+  margin-left: 150px;
+  margin-top: 100px;
+}
+.section2 .obshiydivss2 .card1ss2 {
+  width: 560px;
+  height: 370px;
+  background-color: #36B269;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  justify-content: center;
+  padding-left: 100px;
+}
+.section2 .obshiydivss2 .card1ss2 h1 {
+  margin-left: 0;
+  margin-top: 0;
+  color: white;
+}
+.section2 .obshiydivss2 .card1ss2 p {
+  color: #FFFFFF;
+  width: 80%;
+}
+.section2 .obshiydivss2 .card1ss2 .divpages h3 {
+  color: white;
+}
+.section2 .obshiydivss2 .card1ss2 .divpages {
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+}
+.section2 .obshiydivss2 .card1ss2 div button {
+  width: 200px;
+  height: 50px;
+  background-color: white;
+  border-radius: 20px;
+  border: none;
+  color: #36B269;
+  font-size: 20px;
+  font-weight: 700;
+}
+.section2 .obshiydivss2 .card1ss3 {
+  width: 560px;
+  height: 370px;
+  background-color: #27C6D8;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  justify-content: center;
+  padding-left: 100px;
+}
+.section2 .obshiydivss2 .card1ss3 h1 {
+  margin-left: 0;
+  margin-top: 0;
+  color: white;
+}
+.section2 .obshiydivss2 .card1ss3 p {
+  color: #FFFFFF;
+  width: 80%;
+}
+.section2 .obshiydivss2 .card1ss3 .divpages h3 {
+  color: white;
+}
+.section2 .obshiydivss2 .card1ss3 .divpages {
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+}
+.section2 .obshiydivss2 .card1ss3 div button {
+  width: 200px;
+  height: 50px;
+  background-color: white;
+  border-radius: 20px;
+  border: none;
+  color: #36B269;
+  font-size: 20px;
+  font-weight: 700;
+}
+.section2 .obshiydivss2 {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 50px;
+}
+
+@media (max-width: 510px) {
+  .header {
+    display: none;
+  }
+  .section1 .pagess1 {
+    display: none;
+  }
+  .section1 .divlogo img {
+    width: 100%;
+  }
+  .section2 h1 {
+    margin-left: 20px;
+    margin-top: 50px;
+  }
+  .section2 .obshiydivss2 {
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    row-gap: 20px;
+  }
+  .section2 .obshiydivss2 .card1ss2 {
+    width: 80%;
+    height: 500px;
+    padding-left: 50px;
+  }
+  .section2 .obshiydivss2 .card1ss3 {
+    width: 80%;
+    padding-left: 50px;
+    height: 500px;
+  }
 }/*# sourceMappingURL=style.css.map */
