@@ -136,6 +136,35 @@ font-family: sans-serif;
     }
     
 }
+.section3{
+   h1{
+    font-size: 40px;
+    margin-left: 150px;
+    margin-top: 100px;
+    }
+    .obshiyss3 .cardss3{
+    width: 360px;
+    height: 250px;
+    box-shadow: 0px 0px 10px rgba(183, 178, 178, 0.578);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 30px;
+    padding-left: 50px;
+    img{
+    width: 80px;
+    }
+    p{
+    font-size: 20px;
+    width: 90%;
+    }
+    }
+    .obshiyss3{
+    @include obshiy();
+    margin-top: 50px;
+    }
+}
 
 @media (max-width : 510px) {
     .header{
@@ -143,9 +172,9 @@ font-family: sans-serif;
     }
     .section1 .pagess1{
     display: none;
-    }
       .section1 .divlogo img{
     width: 100%;
+    }
     }
     .section2{
     h1{
@@ -166,6 +195,18 @@ font-family: sans-serif;
     width: 80%;
     padding-left: 50px;
     height: 500px;
+    }
+    }
+    }
+    .section3{
+    h1{
+    margin-left: 20px;
+    }
+    .obshiyss3{
+    flex-direction: column;
+    row-gap: 30px;
+    .cardss3{
+    width: 80%;
     }
     }
     }
